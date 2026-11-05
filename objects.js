@@ -14,3 +14,5 @@ const JsUser = {
 //two ways to access objects
 console.log(JsUser.email)
 console.log(JsUser["email"])
+
+Object.freeze(JsUser) //to freeze an object
