@@ -8,3 +8,11 @@ const user = {
 }
 
 user.welcomeMessage()
+
+
+function chai(){
+    let username = "prakhar"
+    console.log(this.username) //undefined will be printed
+}
+
+const addTwo = (num1, num2) => (num1 + num2) //implicit return, explicit return comes when we use curly braces
